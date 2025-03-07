@@ -4,5 +4,6 @@ create or replace TABLE WHAT_IS_STUDENT (
 	LAST_NAME VARCHAR(50),
 	AGE NUMBER(38,0),
 	GRADE VARCHAR(2),
+	EMAIL VARCHAR(100),
 	primary key (ID)
 );
