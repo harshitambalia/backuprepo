@@ -1,0 +1,3 @@
+create or replace TRANSIENT TABLE MY_SECOND_DBT_MODEL (
+	ID NUMBER(1,0)
+);
