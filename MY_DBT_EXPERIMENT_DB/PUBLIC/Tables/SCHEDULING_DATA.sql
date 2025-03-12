@@ -1,0 +1,3 @@
+create or replace TABLE SCHEDULING_DATA (
+	DATA VARIANT
+);
