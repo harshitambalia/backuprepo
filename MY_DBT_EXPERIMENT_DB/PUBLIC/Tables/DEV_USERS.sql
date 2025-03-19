@@ -1,0 +1,8 @@
+create or replace TABLE DEV_USERS (
+	USER_ID NUMBER(38,0) NOT NULL autoincrement start 1 increment 1 noorder,
+	NAME VARCHAR(100),
+	EMAIL VARCHAR(150),
+	ROLE VARCHAR(50),
+	CREATED_AT TIMESTAMP_NTZ(9) DEFAULT CURRENT_TIMESTAMP(),
+	primary key (USER_ID)
+);
